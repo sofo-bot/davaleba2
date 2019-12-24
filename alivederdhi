@@ -1,0 +1,13 @@
+function main(){
+   repeat(4){
+   putBeeper();
+   turnLeft();
+   move();
+   turnRight();
+   move();   
+   }
+   putBeeper();
+}
+
+
+
