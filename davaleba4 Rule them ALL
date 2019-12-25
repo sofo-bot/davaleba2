@@ -1,0 +1,30 @@
+
+
+function main() {
+  while(frontIsClear()){
+  putBeeper();
+  putBeeperLine();
+   two();
+  }
+}
+
+function putBeeperLine(){
+  while(frontIsClear()) {
+  move();
+  putBeeper();
+  }
+}
+
+function two(){
+   if (leftIsClear()){
+   turnAround();
+   while (frontIsClear()){
+      move();
+   }
+   turnRight();
+   move();
+   turnRight();
+   }
+}
+   
+
