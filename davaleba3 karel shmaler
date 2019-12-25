@@ -1,18 +1,24 @@
-function main(){
-   while (frontIsClear()){
-      move();
-      putBeeper();
-      turnLeft();
-      move();
-      putBeeper();
-      move();
-      putBeeper();
-      turnAround();
-      move();
-      move();
-      turnLeft();
-         if(frontIsClear()){
-         move();
-         }
+//put Beeper on every second street
+function main() {
+  while(frontIsClear()) {
+      move and put Beeper();
    }
+}
+
+function move and put beeper() {
+   turnLeft();
+   move();
+   move();
+   turnRight();
+   move();
+   turnRight();
+   putBeeper();
+   move();
+   putBeeper();
+   move();
+   putBeeper();
+   turnLeft(); 
+   if (frontIsClear()) {
+   move();
+}
 }
